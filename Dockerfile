@@ -1,5 +1,7 @@
 FROM docker.io/armv7/armhf-ubuntu:15.10
 
+LABEL architecture="ARMv7"
+
 #
 # Install Gogs, cf. https://gogs.io/docs/installation
 #
